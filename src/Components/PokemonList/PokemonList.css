@@ -1,0 +1,40 @@
+.pokemon-list-wrapper{
+    margin: 1.5rem auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Pokemon-wapper{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    
+
+}
+.controls{
+    margin: 0 auto;
+}
+.controls button{
+    padding:10px;
+    width: 70px;
+    margin: 15px;
+    height: 35px;
+    color:white;
+    background-color: black;
+}
+.controls button:hover{
+    background-color: aqua;
+    color:black;
+    border-radius: 20px;
+    border:2px solid black;
+}
+.pokemon-box{
+    border: 2px solid black;
+   
+    border-radius: 10px;
+    border-bottom: 3px;
+    
+}
